@@ -1,1 +1,19 @@
+A Linux Distribution is an operating system made from a software collection that is based upon the linux kernel and a often package management system.
+Linux OS -
+       Linux Kernel
+       GNU Shell ( GNU Not Unix) : this is the default shell on many operating system, when someone says GNU they usually means Bash.
+       graphical desktop env
+apt
+A package management tool used to install, update, upgrade, and remove software.
 
+sudo apt update       # Refresh package list
+sudo apt upgrade      # Upgrade all installed packages
+sudo apt install xyz  # Install a new package
+apt
+A package management tool used to install, update, upgrade, and remove software.
+sudo
+Runs the command with superuser (root) privileges — needed for system-level operations.
+update
+Updates the list of available packages and versions from online repositories.
+
+It does NOT install or upgrade any actual packages — it just refreshes the local metadata.
